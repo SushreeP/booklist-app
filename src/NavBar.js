@@ -12,7 +12,6 @@ const NavBar = () => {
       <h2>Reading List</h2>
       <ul>
         <li>Books</li>
-        <li>Show Details</li>
         <li>
           <span onClick={logToggle}>
             Click to {loggedin ? "Log out" : "Log in"}

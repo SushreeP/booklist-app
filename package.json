@@ -1,5 +1,5 @@
 {
-  "name": "theme-context-lesson",
+  "name": "booklist-app",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://sushreep.github.io/booklist-app/",
@@ -11,6 +11,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "theme-context-lesson": "git+https://github.com/SushreeP/booklist-app.git",
     "uuid": "^8.2.0"
   },
   "scripts": {
