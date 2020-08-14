@@ -22,7 +22,13 @@ const BookList = () => {
       </div>
       <ul>
         {loggedin ? (
-          books
+          booklist.length === 0 ? (
+            <li style={{ background: theme.bg, color: theme.font }}>
+              You haven't added any book yet!
+            </li>
+          ) : (
+            books
+          )
         ) : (
           <li style={{ background: theme.bg, color: theme.font }}>
             Log in to see your Reading List!!
