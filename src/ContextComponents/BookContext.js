@@ -6,9 +6,7 @@ export const BookContext = createContext();
 const BookContextProvider = (props) => {
   const [books, setBooks] = useState({
     booklist: [
-      /*{ title: "Head first Python", id: v1() },
-      { title: "The Secret", id: v1() },
-      { title: "11 minutes", id: v1() },*/
+      
     ],
   });
 
