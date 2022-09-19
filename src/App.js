@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar from "./NavBar";
+import NavBar from "./components/NavBar";
 import BookList from "./BookList";
 import "./App.css";
-import ThemeContextProvider from "./ContextComponents/ThemeContext";
-import LoginContextProvider from "./ContextComponents/LoginContext";
-import BookContextProvider from "./ContextComponents/BookContext";
+import ThemeContextProvider from "./contexts/ThemeContext";
+import LoginContextProvider from "./contexts/LoginContext";
+import BookContextProvider from "./contexts/BookContext";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
         </LoginContextProvider>
       </ThemeContextProvider>
       <footer>
-        {"\u00A9"} 2020, Sushree P Mohanty | Created as a showcase project using
+        {"\u00A9"} 2016, Sushree P Mohanty | Created as a showcase project using
         React and CSS from scratch
       </footer>
     </div>
